@@ -3,7 +3,7 @@ name: garmin-sports-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 */2 * *'
+    - cron: '0 */2 * * *'
 env:
   GITHUB_NAME: NYNUZEO
   GITHUB_EMAIL: zeolim@163.com
